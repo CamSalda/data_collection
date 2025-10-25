@@ -1,0 +1,22 @@
+name: data_coll
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # Science
+  - numpy
+
+  # Data
+  - pandas
+
+  # Graphics
+  - matplotlib
+  - seaborn
+
+
+  # Testing
+  - pre-commit
+  - pip
+
